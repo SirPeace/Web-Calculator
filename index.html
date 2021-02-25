@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="icon" sizes="16x16 32x32 64x64" href="faviconit/favicon.ico" />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="196x196"
+         href="faviconit/favicon-192.png"
+      />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="160x160"
+         href="faviconit/favicon-160.png"
+      />
+      <link rel="icon" type="image/png" sizes="96x96" href="faviconit/favicon-96.png" />
+      <link rel="icon" type="image/png" sizes="64x64" href="faviconit/favicon-64.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="faviconit/favicon-32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="faviconit/favicon-16.png" />
+      <link rel="apple-touch-icon" href="faviconit/favicon-57.png" />
+      <link rel="apple-touch-icon" sizes="114x114" href="faviconit/favicon-114.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="faviconit/favicon-72.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="faviconit/favicon-144.png" />
+      <link rel="apple-touch-icon" sizes="60x60" href="faviconit/favicon-60.png" />
+      <link rel="apple-touch-icon" sizes="120x120" href="faviconit/favicon-120.png" />
+      <link rel="apple-touch-icon" sizes="76x76" href="faviconit/favicon-76.png" />
+      <link rel="apple-touch-icon" sizes="152x152" href="faviconit/favicon-152.png" />
+      <link rel="apple-touch-icon" sizes="180x180" href="faviconit/favicon-180.png" />
+      <meta name="msapplication-TileColor" content="#FFFFFF" />
+      <meta name="msapplication-TileImage" content="/favicon-144.png" />
+      <meta name="msapplication-config" content="/browserconfig.xml" />
+      <meta charset="utf-8" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <title>Calculator</title>
+   </head>
+   <body>
+      <div class="container">
+         <div class="container-fluid calculator">
+            <div class="row output">
+               <input
+                  type="text"
+                  name="output"
+                  id="output"
+                  dir="ltr"
+                  value="0"
+               />
+            </div>
+            <div class="row">
+               <div class="col"><button data-value="C">C</button></div>
+               <div class="col"><button data-value="CE">CE</button></div>
+               <div class="col"><button data-value="back"><--</button></div>
+               <div class="col"><button data-action="/">/</button></div>
+            </div>
+
+            <div class="row">
+               <div class="col"><button data-value="7">7</button></div>
+               <div class="col"><button data-value="8">8</button></div>
+               <div class="col"><button data-value="9">9</button></div>
+               <div class="col"><button data-action="*">*</button></div>
+            </div>
+
+            <div class="row">
+               <div class="col"><button data-value="4">4</button></div>
+               <div class="col"><button data-value="5">5</button></div>
+               <div class="col"><button data-value="6">6</button></div>
+               <div class="col"><button data-action="-">-</button></div>
+            </div>
+
+            <div class="row">
+               <div class="col"><button data-value="1">1</button></div>
+               <div class="col"><button data-value="2">2</button></div>
+               <div class="col"><button data-value="3">3</button></div>
+               <div class="col"><button data-action="+">+</button></div>
+            </div>
+
+            <div class="row">
+               <div class="col"><button data-value="+/-">+/-</button></div>
+               <div class="col"><button data-value="0">0</button></div>
+               <div class="col"><button data-value="dot">.</button></div>
+               <div class="col"><button data-action="equal">=</button></div>
+            </div>
+         </div>
+      </div>
+
+      <script src="script.js"></script>
+   </body>
+</html>
